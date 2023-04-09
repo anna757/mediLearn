@@ -1,0 +1,35 @@
+.courseDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .summary {
+    font-size: 1rem;
+    color: #666666;
+  }
+  
+  .duration {
+    font-weight: bold;
+  }
+  
+  .instructor {
+    display: flex;
+    align-items: center;
+  }
+  
+  .instructorName {
+    font-weight: bold;
+    margin-left: 0.5rem;
+  }
+  
+  .syllabus {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .syllabusItem {
+    font-size: 1rem;
+    color: #666666;
+  }
+  
